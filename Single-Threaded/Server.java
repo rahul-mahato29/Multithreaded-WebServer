@@ -7,7 +7,7 @@ import java.net.ServerSocket;
 
 public class Server {
 
-    public void run() { 
+    public void run() throws IOException { 
         int port = 8081;
         int i = 0;
         try {
