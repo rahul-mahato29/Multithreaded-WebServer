@@ -1,3 +1,8 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.ServerSocket;
+import java.util.function.Consumer;
 
 public class Server {
 
@@ -12,7 +17,7 @@ public class Server {
             catch(IOException e) {
                 e.printStackTrace();
             }
-        }
+        };
     }
 
     public static void main(String[] args) {
