@@ -9,20 +9,7 @@ Designed and implemented core networking logic from scratch using _**Java’s Se
 - Difference between **thread-per-request vs thread-pool-based servers**.
 - **Performance bottlenecks** in high-load servers and how to solve them using thread pools.
 - **Java concurrency**: ExecutorService, task queues, and resource optimization.
-
-
-✅ Image suggestion:
-Create a simple diagram showing how:
-
-Requests come to the server
-
-Single-threaded handles one at a time
-
-Multi-threaded creates many threads
-
-Thread-pool uses a queue and reuses threads
-
-You can draw this in draw.io or use any whiteboard and take a screenshot.
+![3wayshandshake](3wayshandshake.png)
 
 ## 🚀 How to Run
 
@@ -53,6 +40,11 @@ You can draw this in draw.io or use any whiteboard and take a screenshot.
     5. Java Thread Management: ExecutorService, ThreadPoolExecutor
 
     6. Task Queues & Load Distribution
+
+### 📷 Single-Threaded vs Multi-Threaded
+![SingleThreaded](SingleThreaded.png)
+
+![Multithreaded](Multithreaded.png)
 
 ## 💡 Why This Project?
 _As a backend engineer, I built this project **to strengthen my understanding of how servers work at a low level**, and how to make them more efficient under real-world load. This project simulates a backend system under high traffic, allowing me to explore and compare system behavior, which is often critical in scalable system design._
